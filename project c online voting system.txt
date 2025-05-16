@@ -1,0 +1,61 @@
+🗳️ Project Title:
+Online Voting System using C Programming
+
+📌 Objective:
+To develop a simple console-based application that allows users to vote for a list of candidates, view voting results, and display the winner using the C programming language.
+
+🧠 Project Description:
+This project simulates an online voting system through a terminal interface. It enables users to:
+
+View a list of candidates.
+
+Cast a vote for their preferred candidate.
+
+Display the total number of votes received by each candidate.
+
+Determine and announce the winner based on the vote count.
+
+It is a basic implementation that focuses on control structures, arrays, and functions in C and is suitable for beginners.
+
+🛠️ Tools & Technologies Used:
+Language: C Programming
+
+Compiler: GCC / Turbo C / Code::Blocks / Dev-C++
+
+Platform: Console (Terminal/Command Prompt)
+
+👨‍💻 Key Functionalities:
+Feature	Description
+Cast Vote	User votes for a candidate by entering the candidate number.
+View Results	Displays current vote count for each candidate.
+Find Winner	Identifies and shows the candidate with the highest number of votes.
+Exit	Terminates the application.
+
+🔍 Modules Breakdown:
+Candidate Management
+
+Uses an array of strings to store candidate names.
+
+Voting Logic
+
+Tracks vote count using an array of integers.
+
+Input validation to ensure correct voting options.
+
+Result Calculation
+
+Loops through the vote count array to find the candidate with the most votes.
+
+📈 Future Improvements (Optional Enhancements):
+Add user authentication with voter IDs.
+
+Prevent multiple voting by the same user.
+
+Store votes in a file or database for persistence.
+
+Provide graphical UI using C graphics or port to a web/mobile app.
+
+Encrypt votes for security.
+
+✅ Conclusion:
+The project demonstrates the fundamental concepts of C programming applied to real-world scenarios. It helps understand arrays, input/output, control structures, and function calls while simulating an important civic process — voting.
